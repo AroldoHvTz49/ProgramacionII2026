@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "sesion4",
-    "slug": "sesion4",
+    "name": "Tarea1PracticaReactNative",
+    "slug": "Tarea1PracticaReactNative",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "sesion4",
+    "scheme": "tarea1practicareactnative",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

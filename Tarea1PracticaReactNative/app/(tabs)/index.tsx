@@ -1,6 +1,5 @@
 import { Image } from 'expo-image';
-import { Platform, StyleSheet, Button, Alert } from 'react-native';
-import {useState} from 'react'; // Para manejar el estado del botón
+import { Platform, StyleSheet } from 'react-native';
 
 import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
@@ -9,21 +8,6 @@ import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 
 export default function HomeScreen() {
-
-  const [contador, setContador] = useState(0);// Estado para contar los clics del botón
-
-  function buttonClick(e: any){
-    if(Platform.OS === "web"){
-      window.alert("Hola Web");
-    }else{
-      Alert.alert("Hola Mobile");
-    }
-  };
-
-  function incrementar(e: any){
-    setContador(anterior => anterior + 1);
-  }
-
   return (
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
@@ -33,10 +17,6 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
-      <Button title="Haz Click aca" onPress={buttonClick}></Button>
-      <Button title="Aumentar" onPress={incrementar}></Button>
-      <ThemedText>Conteo Actual: {contador} </ThemedText>
-
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />

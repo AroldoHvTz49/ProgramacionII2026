@@ -1,0 +1,44 @@
+A) Del problema descrito comprendi que era necesario crear una autenticacion de usuario utilizando la auth de supabas,
+donde no era necesario crear dos tipos de autenticacion sino con solo un formulario poder crear usuarios
+y luego desde la base poder asignar administradores, para que asi solo puedan ser asignados por los encargados
+de la base de datos.
+
+Para el problema planteado determine el uso de 3 tablas: equipos, perfiles y prestamos.
+
+En la tabla equipos donde se van a colocar todos los equipos disponibles para prestamos de los estudiantes,
+y asi poder llevar le control de que equipos hay disponibles y poder agregar mas
+
+En la tabla perfiles poder manejar tambien todos los perfiles creados, y aunque ya se queden en la autenticacion,
+esto para poder tener acceso a los datos y asi mostrarle al usuario nombres, carnet, carrera y foto
+
+En la tabla prestamos se guarda quien solicita el prestamo, el equipo pedido y el estado del prestamo, asi
+se puede hacer una representacion de cual es el estado actual del prestamo y para el administrador poder ver
+cada prestamo y a la vez poder aprobar o rechazar neuvos prestamos
+
+plantie separar cada codigo por parte si es de administrador o estudiante para asi poder designar los espacios 
+de forma adecuada para cada proposito planteado.
+
+
+
+B) A la IA le delege la autenticacion de la base de datos, el registro de la base de datos, navegacion y los prestamos que
+se solicitan y aprueban,
+
+esto debido a que la autenticacion aun es un poco compleja el como solicitarla y que se debian subir archivos al
+storage siendo la foto, tambien que debe validar si es estudiante o administrador y por el tiempo
+era mucho mas sencillo que la IA lo realizara
+
+La parte de la navegacion para que la hiciera mucho mas rapida y sencilla sin estar aplicando href en todas las paginas
+y que a la vez tuviera sentido la navegacion de cada boton
+
+El apartado de los prestamos porque a veces se complica en el hecho de cambiar los estados dentro de la base de datos
+y a la vez poder representar y filtrarlos dentro del programa
+
+
+
+c) Realice muchos errors, por ejemplo que estaba usando mal la llave de Supabase y por ese problema no corria el
+programa y al revisar estaba utilizando un nombre distinto al que genera supabase para el .env
+
+De igual forma genero errores como que estaba mal colocado el cambio a otra pagina pues en algunas ocasiones se 
+quedaba en la misma pagina aunque el boton estuviera funcionando y pues al revisar estaba mal escrita la pagina
+o solo tenia un mensaje
+

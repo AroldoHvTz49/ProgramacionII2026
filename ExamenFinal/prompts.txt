@@ -1,0 +1,11 @@
+1) En base a los codigos trabajados durante la semana vamos a realizar un proyecto de gestion de prestamos de equipos
+donde quiero que utilices el mismo diseño o similar al que venimos usando y al igual el mismo patron de codigo,
+lo dividiremos por dos secciones siendo una de estudiante y otra de administrador
+
+Quiero un unico inicio de sesion para generar los usuarios y utilizaremos 3 tablas: Equipos, Perfiles y prestamos
+cada uno con los campos considerados como nombre, carrera, carnet y foto para perfil, para equipos los que tu consideres
+y para prestamos minimo debe tener un estado para representar devuelto, aprobado, rechazado o pendiente
+
+los prestamos deben incluir fecha de solicitud y fecha de regreso al pedirlo
+
+y el admin debe poder aprobar, rechazar el prestamos solicitado por el estudiante

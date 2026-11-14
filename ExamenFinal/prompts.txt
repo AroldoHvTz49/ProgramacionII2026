@@ -9,3 +9,53 @@ y para prestamos minimo debe tener un estado para representar devuelto, aprobado
 los prestamos deben incluir fecha de solicitud y fecha de regreso al pedirlo
 
 y el admin debe poder aprobar, rechazar el prestamos solicitado por el estudiante
+
+
+2)Al intentar registrar un usuario en Supabase aparece el error email rate limit exceeded. 
+¿A qué se debe y cómo puedo solucionarlo?
+
+3)Al subir una fotografía a Supabase Storage desde Expo Web aparece Invalid Content-Type header. 
+¿Cómo puedo obtener correctamente el tipo MIME de una imagen y subirla?
+
+¿Cómo puedo comprobar si existe una sesión activa y evitar que un usuario tenga 
+que iniciar sesión cada vez que abre la aplicación?
+
+
+
+Quiero que mi aplicación identifique el rol del usuario autenticado y lo 
+redirija a la pantalla correspondiente según sea administrador o estudiante.
+
+
+
+¿Cómo puedo cerrar la sesión de Supabase y regresar al usuario a la pantalla de inicio de sesión?
+
+
+
+Necesito proteger las rutas de mi aplicación para evitar que un estudiante pueda 
+ingresar a las pantallas del administrador.
+
+Quiero implementar filtros para visualizar los préstamos según su estado: pendiente, aprobado, rechazado y devuelto.
+
+
+
+Necesito que los administradores puedan aprobar o rechazar solicitudes mediante botones.
+
+
+
+¿Cómo puedo implementar una confirmación antes de modificar el estado de un préstamo?
+
+
+
+Quiero que al aprobar una solicitud se actualice su estado en Supabase y se refresque automáticamente la lista.
+
+
+
+Necesito implementar la opción de marcar un préstamo como devuelto cuando el estudiante entregue el equipo.
+
+
+
+¿Cómo puedo ordenar las solicitudes para que los préstamos más recientes aparezcan primero?
+
+
+
+¿Cómo puedo manejar los errores de permisos de Supabase cuando intento actualizar un préstamo?
